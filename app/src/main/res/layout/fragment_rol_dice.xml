@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_purple"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragments.RolDiceFragment">
+
+    <ImageView
+        android:id="@+id/imRolDice"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/roldice" />
+
+    <TextView
+        android:id="@+id/tvNumFaces"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CAAED8" android:textAlignment="center"
+        android:textSize="30sp"
+        tools:text="NUM CARAS" />
+
+    <Button
+        android:id="@+id/btSelectChoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:text="Elige nº de caras"/>
+
+    <TextView
+        android:id="@+id/tvRolDice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CAAED8"
+
+        android:textAlignment="center"
+        android:textSize="50sp"
+        tools:text="RESULTADO" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btRolDicePlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        app:cornerRadius="10dp"
+        android:text="JUGAR!" />
+
+</LinearLayout>

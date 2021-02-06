@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@android:color/holo_green_light"
+    tools:context=".fragments.NormalDiceFragment">
+
+    <ImageView
+        android:id="@+id/imNormalDice"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/dicegame" />
+
+    <TextView
+        android:id="@+id/tvNormalDice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:background="#96A175"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        tools:text="RESULTADO" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btNormalDice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        app:cornerRadius="10dp"
+        android:text="JUGAR!" />
+
+</LinearLayout>
